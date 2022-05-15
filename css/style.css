@@ -1,0 +1,118 @@
+.header{
+    background-color: rgb(255, 102, 0);
+}
+.header a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    opacity: 0.6;
+    font-size: 18px;
+}
+.header a:hover{
+    text-shadow: 1px  white;
+    opacity: 1;
+    transition: all 0.1s linear;
+    color: white;
+}
+.header-image{
+    background-image: url(../img/tarsus_giris.jpg);
+    background-size: 100% 100%;
+    height: 10rem;
+    opacity: 0.5;
+}
+.header-text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 120px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+.giris{
+    padding: 10px;
+    text-align: justify;
+    border: 3px solid;
+    border-radius: 30px;
+    border-color: rgba(255, 102, 0);
+    box-shadow: 5px 3px rgba(255, 102, 0, 0.455);
+    margin: 2rem 1rem;
+    
+}
+.kutu{
+    height: 10em;
+    padding: 0;
+    opacity: 0.9;
+}
+.kutu:hover{
+    opacity: 1;
+}
+.resim{
+    height: 10em;  
+    margin: 0;
+}
+.resim img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.yazi{
+    padding-top: 1.5rem;
+    height: 10em;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-color: rgba(255, 102, 0);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 3px rgba(255, 102, 0, 0.455);
+    margin: 0;
+}
+.yazi p{
+    text-align: justify;
+}
+.yazi a{
+    color: rgb(0, 0, 0)k;
+}
+.yazi a:hover{
+    text-decoration: none;
+}
+.hobi-row{
+    margin: 8rem 0;
+}
+.footer{
+    height: 3em;
+    background-color: rgb(255, 102, 0);
+    opacity: 0.7;
+    text-align: center;
+}
+.footer p{
+    height: 100%;
+    line-height: 3em;
+    padding-left: 1rem;
+    color: rgb(0, 0, 0);
+}
+.yukari{
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    z-index: 1000;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(255, 102, 0);
+    opacity: 0.7;
+    text-align: center;
+    line-height: 2rem;
+    color: rgb(0, 0, 0);
+}
+.yukari:hover{
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 760px){
+    .kutu:not(:last-child){
+        margin-bottom: 12em;
+    }
+    .hobi-row{
+        margin-bottom: 12em;
+    }
+}
